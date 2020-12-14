@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AveBrend</title>
+    <!--  <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="iconsfont.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+         integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <form class="header__form" action="#" method="POST">
+                    <label class="form__label" for="country">Ваш город:</label>
+                        <select class="select" name="country" id="country">
+                            <option value="gbr">Москва</option>
+                            <option value="ru">Тула</option>
+                        </select>
+                </form>
+                <div class="header__user">
+                    <a class="user__item" href="sign-up.html">Регистрация</a>
+                    <a class="user__item" href="sign-up.html">Войти</a>
+                    <a class="user__item user-cart _icon-shopping-cart"  href="#">
+                            Пусто <i class="user__item-i _icon-chevron-arrow-down" aria-hidden="true"></i>
+                          </a>
+                </div> 
+            </div>
+        </div>
+    </header> 
+
+    <div class="intro__top intro__top--banner">
+        <a href="index.html">
+            <div class="intro__logo"><b>Avenue</b> Fashion</div>
+        </a>
+        <div class="intro__nav">
+            <ul class="intro__nav__list" id="nav">
+                <li class="nav__item nav__item-m">
+                    <a class="nav__link nav__link-m" href="lookbook.html">Мужчинам</a>
+
+                            <!-- Sub-nav-->
+                                                               
+                    <div class="sub-nav sub-nav-m">
+                        
+                        <div class="sub-nav__inner">
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Стиль casuals</a>
+                                <a href="product-view.html" class="col__item">Куртки</a>
+                                <a href="product-view.html" class="col__item">Худи и свитшоты</a>
+                                <a href="product-view.html" class="col__item">Поло</a>
+                                <a href="product-view.html" class="col__item">Спортивная одрежда</a>
+                                <a href="product-view.html" class="col__item">Брюки</a>
+                                <a href="product-view.html" class="col__item">Футболки</a>
+                            </div>
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Официальный стиль</a>
+                                <a href="#" class="col__item">Пиджаки</a>
+                                <a href="#" class="col__item">Рубашки</a>
+                                <a href="#" class="col__item">Костюмы</a>
+                                <a href="#" class="col__item">Брюки</a>
+                            </div>
+                        </div> <!--/sub-nav__inner-->
+        
+                        <div class="sub-nav__banner">
+                            <div class="banner__text">
+                                Осенняя распродажа!
+                                Скидки до 50%
+                            </div>
+                        </div>
+                    </div> <!--/sub-nav-->
+                
+                   
+                </li>
+                <li class="nav__item nav__item-m">
+                    <a class=" nav__link nav__link-m" href="./lookbook.html">Женщинам</a>
+
+                                    <!-- Sub-nav-->
+                    <div class="sub-nav sub-nav-w">
+                        <div class="sub-nav__inner">
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Стиль casuals</a>
+                                <a href="#" class="col__item">Куртки</a>
+                                <a href="#" class="col__item">Худи и свитшоты</a>
+                                <a href="#" class="col__item">Поло</a>
+                                <a href="#" class="col__item">Спортивная одежда</a>
+                                <a href="#" class="col__item">Брюки</a>
+                                <a href="#" class="col__item">Футболки</a>
+                            </div>
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Официальный стиль</a>
+                                <a href="#" class="col__item">Пиджаки</a>
+                                <a href="#" class="col__item">Рубашки</a>
+                                <a href="#" class="col__item">Костюмы</a>
+                                <a href="#" class="col__item">Брюки</a>
+                            </div>
+                        </div> <!--/sub-nav__inner-->
+        
+                        <div class="sub-nav__banner">
+                            <div class="banner__text">
+                                Осенняя распродажа!
+                                Скидки до 50%
+                            </div>
+                        </div>
+                    </div> <!--/sub-nav-->
+                </li>
+                            <!-- /Sub-nav-->
+
+                <li class="nav__item">
+                    <a class="nav__link nav__link--active" href="#">О бренде</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="store.html">Магазины</a>
+                </li>
+                <li class="nav__item nav__item-m">
+                    <a class="nav__link nav__link-m" href="lookbook.html">коллекция</a>
+
+                            <!-- Sub-nav-->
+                                                               
+                    <div class="sub-nav sub-nav-m sub-nav-lk">
+                        
+                        <div class="sub-nav__inner sub-nav__inner-lk">
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Наша коллекция</a>
+                                <a href="#" class="col__item">Последние поступления</a>
+                                <a href="#" class="col__item">Мужская мода</a>
+                                <a href="#" class="col__item">Женская мода</a>
+                              
+                            </div>
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Мой выбор</a>
+                                <a href="#" class="col__item">Посмотерь или добавить</a>
+                                <a href="#" class="col__item">Пoделиться</a>
+                                <a href="#" class="col__item">Удалить</a>
+                                
+                            </div>
+                        </div> <!--/sub-nav__inner-->
+        
+                        <div class="sub-nav__banner">
+                            <div class="banner__text">
+                                Осенняя распродажа!
+                                Скидки до 50%
+                            </div>
+                        </div>
+                    </div> <!--/sub-nav-->
+                
+                   
+                </li>
+                <div class="intro__search">
+                <form  action="#">
+                    <input type="search" placeholder="Найти..">
+                    <button type="submit">
+                        <i class="_icon-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                </div>
+            </ul> 
+        </div> <!-- /intro__nav-->
+
+        <div class="burger__icon__wrapper burger__icon__wrapper--brend">
+            <div class="burger__icon burger-icon"></div>
+        </div>
+    </div> <!-- /intro__top-->
+    <section class="banner">
+        <div class="banner__overlay">
+
+            <div class="banner__biglogo">
+                <div class="banner__biglogo__letter  biglogo__letter-a">a</div>
+                <div class="banner__biglogo__letter  biglogo__letter-v">v</div>
+                <div class="banner__biglogo__letter  biglogo__letter-e">e</div>
+            </div>
+        </div>
+        <div class="banner__inner">
+            <h1 class="banner__title"><b>Avenue</b> Fashion</h1>
+            <div class="banner__subtitle">Мы делаем вас собой</div>
+        </div>
+    </section>
+                <!--//////// MAIN ///////////////-->
+    <section class="main">
+        <div class="container">
+
+
+            <div class="main__inner">
+            <div class="main__col">
+                <div class="main__img__container main__img__container-1"></div>   
+                <div class="main__img__container main__img__container-2"></div>
+                
+                <div class="main__promo">
+                    <div class="main__title">Наше виденье, ценности и стратегия</div>
+                    <div class="main__subtitle">Чуть позже вместо картинки будет рекламный ролик</div>
+                    <div class="main__text">Не следует, однако забывать, что реализация намеченных плановых 
+                        заданий требуют определения и уточнения позиций, занимаемых участниками в отношении 
+                        поставленных задач. Разнообразный и богатый опыт рамки и место обучения кадров влечет 
+                        за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным 
+                        потребностям.</div>
+                </div>
+            </div> <!-- //main__col-->
+
+            <div class="main__col">
+                <div class="main__promo">
+                    <div class="main__title">Эксклюзивный дизайн одежды</div>
+                    <div class="main__subtitle">Созданный в 2013 году, бренд все так же на высоте</div>
+                    <div class="main__text">Не следует, однако забывать, что реализация намеченных плановых 
+                        заданий требуют определения и уточнения позиций, занимаемых участниками в отношении 
+                        поставленных задач. Разнообразный и богатый опыт рамки и место обучения кадров влечет 
+                        за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным 
+                        потребностям.</div>
+                </div>
+
+                <div class="main__img__container main__img__container-3">
+                    <!--<img src="../img/Brand/main2.webp" alt="">-->
+                </div>
+
+                <div class="main__promo">
+                    <div class="main__title">Высокое качество продаж</div>
+                    <div class="main__subtitle">Наш бренд выбирают во всем мире как эталон надежности</div>
+                    <div class="main__text">Не следует, однако забывать, что реализация намеченных плановых 
+                            заданий требуют определения и уточнения позиций, занимаемых участниками в отношении 
+                            поставленных задач. Разнообразный и богатый опыт рамки и место обучения кадров влечет 
+                            за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным 
+                            потребностям.  <a class="main__text__link" href="">Дальше <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+                </div>
+                <div class="awards">
+                    <img class="awards__item" src="./img/Brand/awards/REPLACE copy 3.png" alt="">
+                    <img class="awards__item" src="./img/Brand/awards/REPLACE copy 4.png" alt="">
+                    <img class="awards__item" src="./img/Brand/awards/REPLACE copy 5.png" alt="">
+                </div>
+
+            
+        </div> <!--//main__inner-->
+        </div> <!-- //container-->
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <div class="footer__block accordion">
+                    <div class="footer__block__item  accordion__item" data-collapse="#block-1">
+                        <div class="block__title">Информация</div>
+                        <div>
+                        <i class="fa fa-chevron-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">О бренде</a>
+                        <a class="footer__link" href="#">Магазины</a>
+                        <a class="footer__link" href="#">Клиентам</a>
+                        <a class="footer__link" href="#">Политика <br> конфиденциальности</a>
+                        <a class="footer__link" href="#">Карта сайта</a>
+                        </div>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-2">
+                        <div class="block__title">Почему мы</div>
+                        <i class="fa fa-chevron-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Покупка и возврат</a>
+                        <a class="footer__link" href="#">Безопасность покупок</a>
+                        <a class="footer__link" href="#">Рекомендации</a>
+                        <a class="footer__link" href="#">Награды</a>
+                        <a class="footer__link" href="#">Вежливые продавцы</a>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-3">
+                        <div class="block__title">Мой аккаунт</div>
+                        <i class="fa fa-chevron-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Войти</a>
+                        <a class="footer__link" href="#">Регистрация</a>
+                        <a class="footer__link" href="#">Корзина</a>
+                        <a class="footer__link" href="#">Мои пожелания</a>
+                        <a class="footer__link" href="#">Отслеживание заказа</a>
+                        <a class="footer__link" href="#">Обновления</a>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-4">
+                        <div class="block__title">Каталог</div>
+                        <i class="fa fa-chevron-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Последние записи</a>
+                        <a class="footer__link" href="#">Мужская коллекция</a>
+                        <a class="footer__link" href="#">Скачать каталог</a>
+                        <a class="footer__link" href="#">Мой выбор</a>
+                        <a class="footer__link" href="#">Удалить избранное</a>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-5">
+                        <div class="block__title">Контакты</div>
+                        <i class="fa fa-chevron-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Головной офис</a>
+                        <a class="footer__link" href="#">Ул Ленина</a>
+                        <a class="footer__link" href="#">Тел:0 000 000 00 00</a>
+                        <a class="footer__link" href="#">email: mail@mail.ru</a>
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="footer__block footer__block--banners">
+                    <div class="footer__banner">
+                        <div class="footer__banner__text">
+                            <b>Победитель в номинации</b> <br>Fashion Avards 2016
+                        </div>
+
+                    </div>
+                    <div class="footer__banner footer__banner--social">
+                        <div class="footer__social__block">
+                            <a href="#" class="social__item"><i class="_icon-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="social__item"><i class="_icon-twitter" aria-hidden="true"></i></a>
+                            <a href="#" class="social__item"><i class="_icon-instagram-logo" aria-hidden="true"></i></a>
+                            <a href="#" class="social__item"><i class="_icon-pinterest-logo" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+    </footer>
+    <div class="footer__block-copy">
+        <div class="container">
+            <div class="block-copy__inner">
+                <div class="footer__copyright ">
+                    <p>&copy; 2016 Avenue Fashion 	
+                        &trade;</p>
+                        </div>   
+                <div class="footer__copyright">
+                    <p>Дизайн великого художника</p>
+                    <p>Сайт сделан MyCompany.ru </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="apps.js"> </script> 
+    <script src="slick.min.js"> </script> 
+    <script src="script.js"> </script>  
+
+</body>
+</html>

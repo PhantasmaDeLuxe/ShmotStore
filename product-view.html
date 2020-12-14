@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AveBrend</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="iconsfont.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+    integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <form class="header__form" action="#" method="POST">
+                    <label class="form__label" for="country">Ваш город:</label>
+                        <select class="select" name="country" id="country">
+                            <option value="gbr">Москва</option>
+                            <option value="ru">Тула</option>
+                        </select>
+                </form>
+                <div class="header__user">
+                    <a class="user__item" href="sign-up.html">Регистрация</a>
+                    <a class="user__item" href="sign-up.html">Войти</a>
+                    <a class="user__item user-cart _icon-shopping-cart"  href="#">
+                        Пусто <i class="user__item-i _icon-chevron-arrow-down" aria-hidden="true"></i>
+                    </a>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <div class="intro__top intro__top--banner">
+        <a href="index.html" class="intro__logo"><b>Avenue</b> Fashion</a>
+        <div class="intro__nav">
+            <ul class="intro__nav__list" id="nav">
+                <li class="nav__item nav__item-m">
+                    <a class="nav__link nav__link-m nav__link--active" href="lookbook.html">Мужчинам</a>
+
+                            <!-- Sub-nav-->
+                                                               
+                    <div class="sub-nav sub-nav-m">
+                        
+                        <div class="sub-nav__inner">
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Стиль casuals</a>
+                                <a href="#" class="col__item">Куртки</a>
+                                <a href="#" class="col__item">Худи и свитшоты</a>
+                                <a href="#" class="col__item">Поло</a>
+                                <a href="#" class="col__item">Спортивная одрежда</a>
+                                <a href="#" class="col__item">Брюки</a>
+                                <a href="#" class="col__item">Футболки</a>
+                            </div>
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Официальный стиль</a>
+                                <a href="#" class="col__item">Пиджаки</a>
+                                <a href="#" class="col__item">Рубашки</a>
+                                <a href="#" class="col__item">Костюмы</a>
+                                <a href="#" class="col__item">Брюки</a>
+                            </div>
+                        </div> <!--/sub-nav__inner-->
+        
+                        <div class="sub-nav__banner">
+                            <div class="banner__text">
+                                Осенняя распродажа!
+                                Скидки до 50%
+                            </div>
+                        </div>
+                    </div> <!--/sub-nav-->
+                
+                   
+                </li>
+                <li class="nav__item nav__item-m">
+                    <a class=" nav__link nav__link-m" href="lookbook.html">Женщинам</a>
+
+                                    <!-- Sub-nav-->
+                    <div class="sub-nav sub-nav-w">
+                        <div class="sub-nav__inner">
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Стиль casuals</a>
+                                <a href="#" class="col__item">Куртки</a>
+                                <a href="#" class="col__item">Худи и свитшоты</a>
+                                <a href="#" class="col__item">Поло</a>
+                                <a href="#" class="col__item">Спортивная одежда</a>
+                                <a href="#" class="col__item">Брюки</a>
+                                <a href="#" class="col__item">Футболки</a>
+                            </div>
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Официальный стиль</a>
+                                <a href="#" class="col__item">Пиджаки</a>
+                                <a href="#" class="col__item">Рубашки</a>
+                                <a href="#" class="col__item">Костюмы</a>
+                                <a href="#" class="col__item">Брюки</a>
+                            </div>
+                        </div> <!--/sub-nav__inner-->
+        
+                        <div class="sub-nav__banner">
+                            <div class="banner__text">
+                                Осенняя распродажа!
+                                Скидки до 50%
+                            </div>
+                        </div>
+                    </div> <!--/sub-nav-->
+                </li>
+                            <!-- /Sub-nav-->
+
+                <li class="nav__item">
+                    <a class="nav__link" href="index-brend.html">О бренде</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="store.html">Магазины</a>
+                </li>
+                <li class="nav__item nav__item-m">
+                    <a class="nav__link nav__link-m" href="lookbook.html">коллекция</a>
+
+                            <!-- Sub-nav-->
+                                                               
+                    <div class="sub-nav sub-nav-m sub-nav-lk">
+                        
+                        <div class="sub-nav__inner sub-nav__inner-lk">
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Наша коллекция</a>
+                                <a href="#" class="col__item">Последние поступления</a>
+                                <a href="#" class="col__item">Мужская мода</a>
+                                <a href="#" class="col__item">Женская мода</a>
+                              
+                            </div>
+                            <div class="sub-nav__col">
+                                <a href="#" class="col__title">Мой выбор</a>
+                                <a href="#" class="col__item">Посмотерь или добавить</a>
+                                <a href="#" class="col__item">Пoделиться</a>
+                                <a href="#" class="col__item">Удалить</a>
+                                
+                            </div>
+                        </div> <!--/sub-nav__inner-->
+        
+                        <div class="sub-nav__banner">
+                            <div class="banner__text">
+                                Осенняя распродажа!
+                                Скидки до 50%
+                            </div>
+                        </div>
+                    </div> <!--/sub-nav-->
+                
+                   
+                </li>
+                <div class="intro__search">
+                <form  action="#">
+                    <input type="search" placeholder="Найти..">
+                    <button type="submit">
+                        <i class="_icon-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                </div>
+            </ul> 
+        </div> <!-- /intro__nav-->
+
+        <div class="burger__icon__wrapper burger__icon__wrapper--brend">
+            <div class="burger__icon burger-icon"></div>
+        </div>
+    </div> <!-- /intro__top-->
+    <section class="banner">
+        <div class="banner__overlay">
+
+            <div class="banner__biglogo">
+                <div class="banner__biglogo__letter  biglogo__letter-a">a</div>
+                <div class="banner__biglogo__letter  biglogo__letter-v">v</div>
+                <div class="banner__biglogo__letter  biglogo__letter-e">e</div>
+            </div>
+        </div>
+        <div class="banner__inner">
+            <h1 class="banner__title"><b>Product</b> view</h1>
+            <div class="banner__subtitle banner__subtitle--product">Мужчинам - повседневная одежда - худи и свитшоты - <span>классический свитшот</span> </div>
+        </div>
+    </section>
+                <!--//////// MAIN ///////////////-->
+    <section class="product">
+        <div class="container">
+            
+            <div class="product__inner">
+
+                <div class="slider slider--product">
+                    <div class="slider__item">
+                        <img src="img/item1.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/item3.png" alt="">
+                    </div>   
+                    <div class="slider__item">
+                        <img src="img/item4.png" alt="">
+                    </div>  
+                </div>
+
+                    <!-- PRODUCT__CARD -->
+                
+                <div class="product__card">
+                    <div class="product__title">AVE свитшот классический</div>
+                    <div class="product__header">
+                        <div class="product__header__item stars">
+                            <span><img src="img/icons/star.svg" width="15" height="15" alt=""></span>
+                            <span><img src="img/icons/star.svg" width="15" height="15" alt=""></span>
+                            <span><img src="img/icons/star.svg" width="15" height="15" alt=""></span>
+                            <span><img src="img/icons/star.svg" width="15" height="15" alt=""></span>
+                            <span><img src="img/icons/star-o.svg" width="15" height="15" alt=""></span>
+                            
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            3 просмотра
+                        </div>
+                        <a href="#" class="product__header__item product__header__link">Добавить в просмотренное</a>
+                        <div class="product__header__item product__header__share">
+                            <div class="product__header__share--title">Share:</div>
+                            <div class="share__link">
+                                <a href="#"><i class="fa _icon-facebook" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="share__link">
+                                <a href="#"><i class="fa _icon-twitter" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="share__link">
+                                <a href="#"> <i class="fa _icon-google-plus" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="share__link">
+                                <a href="#"> <i class="fa _icon-pinterest-logo" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="share__link">
+                                <a href="#"> <i class="fa _icon-email" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="share__link">
+                                <a href="#"> <i class="fa _icon-instagram-logo" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product__price">
+                        <div class="product__price--old">&#163;107</div>
+                        <div class="product__price--new">&#163;89.99</div>
+                    </div>
+                   <div class="product__details">
+                       <p> Наличие: в наличии в магазинах</p>
+                       <p>Артикул: #111222</p>
+                       <span>Тэги:</span> 
+                           <a href="#">Классика,</a>
+                           <a href="#">Повседневный,</a>
+                           <a href="#">V-вырез,</a>
+                           <a href="#">Свободный</a>            
+                   </div>
+                   <div class="product__description">
+                       <div class="product__description__text">
+                        Свитшот — удобная трендовая одежда на каждый день
+                         из комфортного хлопка с мягким утепленным слоем.
+                       </div>
+                      
+                        <ul class="product__description__list">
+                            <li>Эластичные манжеты</li>
+                            <li>классический крой</li>
+                            <li>100% хлопок</li>
+                            <li>Бесплатная доставка, 4 дня на возврат</li>
+                        </ul>  
+                    </div>
+                
+
+                    <div class="product__options__block">
+                        <form class="product__option" action="#" method="#">
+                            <label class="product__label" for="color">Цвет</label>
+                                <div class="product__select">
+                                    <select  name="color" id="color">
+                                        <option>Выбрать цвет</option>
+                                        <option>Красный</option>
+                                        <option>Зеленый</option>
+                                    </select>
+                                </div>
+                        </form>
+                        <form class="product__option" action="#" method="#">
+                            <label class="product__label" for="color">Размер</label>
+                                <div class="product__select">
+                                    <select  name="color" id="color">
+                                        <option>Выбрать размер</option>
+                                        <option>XL</option>
+                                        <option>XXL</option>
+                                    </select>
+                                </div>
+                        </form>
+                      
+                        <form class="product__option" action="#" method="#">
+                            <label class="product__label" for="qty">Количество</label>
+                            <div class="qty__block">
+                                <input class="qty__start" value="1"></input>
+                                <div class="qty__change">
+                                    <div class="qty__change__item qty__more">
+                                        <i class="fa _icon-chevron-arrow-up" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="qty__change__item qty__less">
+                                        <i class="fa _icon-chevron-arrow-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>        
+                        </form>
+
+
+                    </div> <!-- //product__options__block --> 
+                    <div class="">
+                        <div class="btn btn--product">
+                            <i class="fa _icon-shopping-cart" aria-hidden="true"></i>
+                            Добавить в корзину</div>
+                        <div class="btn btn--product">
+                            <i class="fa _icon-heart" aria-hidden="true"></i>
+                            Добавить в избранное</div>
+                    </div>
+                    <div class="btn btn--product btn--product-compare">
+                        <i class="fa _icon-compare" aria-hidden="true"></i>
+                        Добавить к сравнению</div>
+                    
+                   
+                </div> <!--- //product__card --> 
+            </div> <!-- //product__inner -->
+
+            <div class="product__tabs">
+                <nav class="product__tabs__nav">
+                    <div class="product__tabs__nav__link link-active" data-tab="#tab_1">
+                        Описание
+                    </div>
+                    <div class="product__tabs__nav__link" data-tab="#tab_2">
+                        Видео
+                    </div>
+                    <div class="product__tabs__nav__link" data-tab="#tab_3">
+                        Размеры и характеристики
+                    </div>
+                    <div class="product__tabs__nav__link" data-tab="#tab_4">
+                        доствка и возврат
+                    </div>
+                    <div class="product__tabs__nav__link" data-tab="#tab_5">
+                        Отзывы
+                    </div>   
+                </nav>
+                <div class="product__tabs__content">
+                    <div class="tabs__body">
+                        <div id="tab_1" class="tabs__block block-active">
+                            <div class="tab__title">Nunc egestas posuere enim, eu maximus erat posuere eget</div>
+                            <p>Sed ut mi mollis, consequat nulla lacinia, 
+                        hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. 
+                        Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed i
+                        mperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium 
+                        elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit 
+                        dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.</p>
+
+                            <p>Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis 
+                        purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla 
+                        lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. 
+                        Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat 
+                        justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies.
+                         Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel 
+                         faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. 
+                         Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a 
+                         convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim 
+                         sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.</p>
+                        </div> <!--//tebs__block-->
+
+                        <div id="tab_2" class="tabs__block">
+                            <div class="tab__title">Тут должно было быть видео с красивой тобой, но мы такого не нашли</div>
+                            <p>Так что смотри что есть</p>
+                            <div class="video-resp">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QvJ1huOiWIA" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe>
+                            </div>
+                        </div> <!--//tabs__block-->
+
+                        <div id="tab_3" class="tabs__block">
+                            <div class="tab__title">На такую жирную жопу штанов не шьем</div>
+                            <p>Чехлы для танков в другом магазине</p>
+                        
+                        </div> <!--//tebs__block-->
+                        <div id="tab_4" class="tabs__block">
+                            <div class="tab__title">Доставки нет, но вы держитесь</div>
+                            <p>Назад тоже не принимаем</p>
+                        
+                        </div> <!--//tebs__block-->
+                        <div id="tab_5" class="tabs__block">
+                            <div class="tab__title">Хрен мы вам покажем честные отзывы</div>
+                            <p>контент заблокирован матерным фильтром</p>
+                        
+                        </div> <!--//tabs__block-->
+
+                    </div> <!-- //tabs__body-->
+
+                </div>
+            </div> <!--//product__data-->
+
+        </div> <!-- //container -->
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <div class="footer__block accordion">
+                    <div class="footer__block__item  accordion__item" data-collapse="#block-1">
+                        <div class="block__title">Информация</div>
+                        <div>
+                        <i class="_icon-chevron-arrow-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">О бренде</a>
+                        <a class="footer__link" href="#">Магазины</a>
+                        <a class="footer__link" href="#">Клиентам</a>
+                        <a class="footer__link" href="#">Политика <br> конфиденциальности</a>
+                        <a class="footer__link" href="#">Карта сайта</a>
+                        </div>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-2">
+                        <div class="block__title">Почему мы</div>
+                        <i class="_icon-chevron-arrow-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Покупка и возврат</a>
+                        <a class="footer__link" href="#">Безопасность покупок</a>
+                        <a class="footer__link" href="#">Рекомендации</a>
+                        <a class="footer__link" href="#">Награды</a>
+                        <a class="footer__link" href="#">Вежливые продавцы</a>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-3">
+                        <div class="block__title">Мой аккаунт</div>
+                        <i class="_icon-chevron-arrow-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Войти</a>
+                        <a class="footer__link" href="#">Регистрация</a>
+                        <a class="footer__link" href="#">Корзина</a>
+                        <a class="footer__link" href="#">Мои пожелания</a>
+                        <a class="footer__link" href="#">Отслеживание заказа</a>
+                        <a class="footer__link" href="#">Обновления</a>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-4">
+                        <div class="block__title">Каталог</div>
+                        <i class="_icon-chevron-arrow-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Последние записи</a>
+                        <a class="footer__link" href="#">Мужская коллекция</a>
+                        <a class="footer__link" href="#">Скачать каталог</a>
+                        <a class="footer__link" href="#">Мой выбор</a>
+                        <a class="footer__link" href="#">Удалить избранное</a>
+                    </div>
+                    <div class="footer__block__item accordion__item" data-collapse="#block-5">
+                        <div class="block__title">Контакты</div>
+                        <i class="_icon-chevron-arrow-down footer__block__icon" aria-hidden="true"></i>
+                        <a class="footer__link" href="#">Головной офис</a>
+                        <a class="footer__link" href="#">Ул Ленина</a>
+                        <a class="footer__link" href="#">Тел:0 000 000 00 00</a>
+                        <a class="footer__link" href="#">email: mail@mail.ru</a>
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="footer__block footer__block--banners">
+                    <div class="footer__banner">
+                        <div class="footer__banner__text">
+                            <b>Победитель в номинации</b> <br>Fashion Avards 2016
+                        </div>
+
+                    </div>
+                    <div class="footer__banner footer__banner--social">
+                        <div class="footer__social__block">
+                            <a href="#" class="social__item"><i class="_icon-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="social__item"><i class="_icon-twitter" aria-hidden="true"></i></a>
+                            <a href="#" class="social__item"><i class="_icon-instagram-logo" aria-hidden="true"></i></a>
+                            <a href="#" class="social__item"><i class="_icon-pinterest-logo" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+    </footer>
+    <div class="footer__block-copy">
+        <div class="container">
+            <div class="block-copy__inner">
+                <div class="footer__copyright ">
+                    <p>&copy; 2016 Avenue Fashion 	
+                        &trade;</p>
+                        </div>   
+                <div class="footer__copyright">
+                    <p>Дизайн великого художника</p>
+                    <p>Сайт сделан MyCompany.ru </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="apps.js"> </script> 
+    <script src="slick.min.js"> </script> 
+    <script src="script.js"> </script> 
+
+</body>
+</html>
